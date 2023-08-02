@@ -4,20 +4,21 @@ function multiloopone(){
     one.innerHTML=''
    const inputOne =document.getElementById('inputOne').value
     for (let i=1; i<=inputOne;i++){
-    let row = ''
+    let line = ''
     for (let j=1; j<=inputOne;j++){
-        row += `*`
+        line += `*`
     }
-    one.innerHTML+= row +"<br>"}}
+    one.innerHTML+= line +"<br>"}
+}
 
 function multilooptwo(){
     one.innerHTML=''
    const inputTwo =document.getElementById('inputTwo').value
     for (let i=1; i<=inputTwo;i++){
-    let row = ''
+    let line = ''
     for (let j=1; j<=i;j++){
-        row += `*`
+        line += `*`
     }
-    one.innerHTML+= row +"<br>"}
+    one.innerHTML+= line +"<br>"}
     
 }
